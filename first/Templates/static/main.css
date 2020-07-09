@@ -1,0 +1,197 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fondamento:ital@0;1&display=swap');
+
+body {
+    font-family: 'Fondamento', cursive;
+    margin: 0;
+}
+
+.begin {
+    background: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url('covid2.jpg');
+    background-position: 20% 90%;
+    font-size: x-large;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-bottom: 4em;
+}
+
+header {
+    filter: brightness(100%);
+    padding: 5em 5em;
+}
+
+.begin a{
+    color:black;
+    text-shadow: white;
+    text-decoration: rgb(47, 53, 51);
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding-right: 2em;
+}
+
+section {
+    margin: 0em 2em 0em 2em;
+}
+
+h1 span {
+    text-transform: uppercase;
+    display: block;
+    font-size: 1.5em;
+}
+
+.begin p{
+    font-weight: bold;
+    margin: 0 1.2em 3em;
+}
+
+.form-container{
+    color: rgb(3, 5, 5);
+    background-color: white;
+    margin: 2em -1em 0;
+    padding: 2em;
+}
+
+label {
+    color:  rgb(3, 5, 5);
+    font-weight: bold;
+    display: block;
+    margin-bottom: 1em;
+    font-size: 1.2em;
+}
+
+input[type=text] {
+    border: 1px solid #707070;
+    width: 100%;
+    padding: 1em;
+    box-sizing: border-box;
+    border-radius: .7em;
+    margin-top: 1.3em;
+}
+
+.form-container p {
+    color: grey;
+    margin-bottom: 1.5em;
+    font-weight: normal;
+    font-size: 0.9em;
+    margin-top: 0.4em;
+}
+
+input[type=submit] {
+    background-color: rosybrown;
+    border: none;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    padding: 1em 0;
+    border-radius: .5em;
+    font-size: 1.3em;
+    cursor: pointer;
+}
+
+input[type=button] :hover {
+    background-color: sienna;
+}
+
+.Indian {
+    background: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url('covid1.jpg');
+    background-position: 60% 150%;
+    margin: 0;
+}
+
+.right-col {
+    text-align: center;
+    margin: 3em 1.2em;
+}
+
+h2 {
+    text-transform: uppercase;
+    position: relative;
+}
+
+h2::before {
+    content: ' ';
+    position: absolute;
+    width: 3em;
+    background: rgb(47, 53, 51);
+    height: .4em;
+    bottom: 0;
+    z-index: -1;
+    margin-left: -.3em;
+}
+
+p {
+    line-height: 2em;
+}
+
+.end{
+    text-align: left;
+    background-color: black;
+    color: white;
+}
+
+.end a {
+    text-align: center;
+    background-color: black;
+    color: white;
+
+}
+
+.end label {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+@media (min-width:720px) {
+    section {
+        margin: 0 4em;
+    }
+
+    .form-container {
+        margin: 2em -4em 0;
+    }
+}
+
+@media (min-width: 930px) {
+    .begin {
+        text-align: left;
+    }
+    .begin p{
+        margin: 0 0 3em;
+    }
+    .begin section{
+        width: 65%;
+    }
+    .form-container{
+        margin: 2em 0 0;
+        padding: 2em;
+        border-radius: .5em;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0);
+    }
+
+    form{
+        display: grid;
+    }
+
+    .form-left{
+        width: 70%;
+    }
+
+    label{
+        margin:0;
+    }
+}
+
+@keyframes fadeIn {
+    from 
+    {
+        opacity: 0;
+        transform: translateY(-2em);
+    }
+    to
+    {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

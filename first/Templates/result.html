@@ -1,0 +1,35 @@
+{% extends 'home.html' %}
+{% load static %}
+
+
+{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    
+    , initial-scale=1.0">
+    <title>Statistics</title>
+
+    <link rel="stylesheet" type="text/css" href= "{% static 'result.css' %}">    
+</head>
+<body>
+    <div class="up">
+        <header>
+            Statistics
+        </header>
+
+        <h1> <span>We'll win over this!</span></h1>
+    </div>
+
+    <div class="results">
+        Result: {{result}}
+        <img src="{% static 'covid3.jpg' %}" alt="Corona">
+    </div>    
+    
+</body>
+</html>
+
+
+{% endblock %}

@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Fondamento:ital@0;1&display=swap');
+
+body {
+    font-family: 'Fondamento', cursive;
+    margin: 0;
+}
+
+.up {
+    text-align: center;
+    padding-bottom: 4em;
+}
+
+h1 span {
+
+    text-transform: uppercase;
+    display: block;
+    font-size: 1.5em;
+}
+
+.results {
+    font-size: x-large;
+    font-weight: bolder;
+    text-align: center;
+    padding-bottom: 4em;
+}
+
+.results img {
+    width: 50%;
+    height: auto;
+}
